@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #191919;
+}
+
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 0 10px;
+  margin: auto;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+label {
+  cursor: pointer;
+}

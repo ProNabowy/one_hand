@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+    @apply text-white block mb-2
+}
+
+input {
+    @apply border border-primary rounded-sm p-2 px-5 bg-transparent w-full text-white mb-5
+}
+label.err {
+    @apply text-[red]
+}
+
+input.err {
+    @apply border-[red] placeholder:text-[red]
+}
